@@ -306,7 +306,7 @@ h6 {
   padding: 10px 0;
   overflow-y: auto;
   transition: 0.3s;
-  border: 2px solid rgba(#6600fff0, 0.752);
+  border: 2px solid rgba(102, 0, 255, 0.91);
 }
 
 .navbar-mobile li {
