@@ -45,7 +45,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Header
+# Header - homepage
 --------------------------------------------------------------*/
 #header {
   transition: ease-in-out 0.3s;
@@ -84,9 +84,14 @@ h6 {
 }
 
 #header h2 span {
-  color: #fff;
+  color: rgb(255, 255, 255);
   border-bottom: 3px solid #6600ff;
   padding-bottom: 6px;
+}
+
+#header h2 span i {
+  color: #6600ff;
+  padding-bottom: 0px;
 }
 
 #header img {
@@ -127,6 +132,11 @@ h6 {
     line-height: 30px;
   }
 
+  #header h2 span i {
+    font-size: 18px;
+    color: #6600ff;
+  }
+
   #header .social-links {
     margin-top: 15px;
   }
@@ -138,7 +148,7 @@ h6 {
   }
 }
 
-/* Header Top */
+/* Header menu Top */
 #header.header-top {
   height: 80px;
   position: fixed;
@@ -548,7 +558,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #6600ff;
+  background: #6600ff88;
   border-color: #6600ff;
 }
 
@@ -570,7 +580,7 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# Portfolio gallery
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -800,7 +810,7 @@ section .container {
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Contact - buy
 --------------------------------------------------------------*/
 .contact .info-box {
   color: #444444;
