@@ -402,6 +402,28 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Policy
+--------------------------------------------------------------*/
+.policy {
+  position: fixed;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 15px;
+  text-align: left;
+  font-size: 30px;
+  font-family: "Bubblegum Sans", sans-serif;
+  color: #6600ff;
+}
+
+@media (max-width: 992px) {
+  .policy {
+  text-align: left;
+  font-size: 12px;     
+  }
+}
+
+/*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
 .about-me .content h3 {
